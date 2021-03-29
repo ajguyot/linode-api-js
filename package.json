@@ -1,0 +1,30 @@
+{
+  "name": "linode-api-js",
+  "version": "1.0.0",
+  "description": "A JavaScript client for the Linode API",
+  "main": "src/startup.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macstories/linode-api-js.git"
+  },
+  "keywords": [
+    "MacStories"
+  ],
+  "author": "Alex Guyot <guyot@macstories.net> (https://macstories.net/author/alexguyot/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macstories/linode-api-js/issues"
+  },
+  "homepage": "https://github.com/macstories/linode-api-js#readme",
+  "dependencies": {
+    "@unplgtc/cbalerter": "^1.1.1",
+    "@unplgtc/cblogger": "^1.1.0",
+    "@unplgtc/http-request": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

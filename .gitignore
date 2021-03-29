@@ -1,0 +1,7 @@
+node_modules
+**/.DS_Store
+config/linodeConfig.js
+test/coverage
+.env
+sandbox.js
+icon?
